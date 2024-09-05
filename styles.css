@@ -1,0 +1,770 @@
+
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+	
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+
+    height: 100%;
+
+}
+
+
+#hmi-screen {
+
+    background-position: center;
+	position: center;
+	
+    background-size: contain;
+	background-repeat: no-repeat;
+    margin: auto;
+	overflow: auto;
+	background-color: #f0f0f0;
+	width: 100vw; /* oder eine spezifische Breite */
+    height: 100vh; /* oder eine spezifische Höhe */
+	max-height: 768px;
+    max-width: 1360px;
+    margin: auto; /* Zentriert den container horizontal, wenn eine Breite festgelegt ist */
+	background-size: contain; /* Ensure background image scales properly */
+    transform-origin: top left; /* Set the origin point for scaling */
+    transform: scale(1); /* Default scale */
+	
+	
+}
+
+
+/* Stile für Bildschirme bis zu 1920px Breite */
+@media (max-width: 1920px) {
+   
+	
+	
+	.button-type-1 
+        /* Spezifische Stile hier */
+		{ line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 14.1vw;top:92.45vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+	
+	.button-type-2 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block; margin: 0;border: none; padding: 0; position: absolute;left: 23.1vw;top:92.45vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+		.button-type-3 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 32.14vw;top:92.45vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+	
+	
+		.button-type-4 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 41.14vw;top:92.45vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+	
+	
+		.button-type-5 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 50.14vw;top:92.45vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+	
+		.button-type-6 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 59.14vw;top:92.45vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+	
+		.button-type-7 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 68.14vw;top:92.45vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		.button-type-8 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 77.14vw;top:92.45vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+	
+	.button-type-9 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 14.1vw;top:96.2vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+	
+	.button-type-10 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 23.14vw;top:96.2vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+		.button-type-11 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 32.14vw;top:96.2vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+	
+		.button-type-12 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 41.14vw;top:96.2vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+	
+	
+		.button-type-13 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 50.14vw;top:96.2vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+	
+		.button-type-14 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 59.14vw;top:96.2vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+	
+		.button-type-15 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 68.14vw;top:96.2vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		.button-type-16 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 77.14vw;top:96.2vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+	
+	
+	
+	.button-type-17 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 5vw;top:92.4vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+
+
+
+
+
+	.button-type-18
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 86.18vw;top:92.4vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+
+
+
+
+
+	.button-type-19
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 58.55vw;top:84vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+
+
+	.button-type-20
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 37.42vw;top:84vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+
+
+ .button-type-21 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 23.3vw;top:23.8vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+	
+	.button-type-22 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 32.3vw;top:23.8vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+		.button-type-23 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 41.3vw;top:23.8vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+	
+	
+		.button-type-24 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 50.3vw;top:23.8vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+	
+	
+		.button-type-25 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 59.3vw;top:23.8vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+	
+		.button-type-26 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 68.28vw;top:23.8vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+	
+		.button-type-27 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 23.3vw;top:31.41vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		.button-type-28 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 32.3vw;top:31.41vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+	
+	.button-type-29 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 68.28vw;top:31.41vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+	
+	.button-type-30 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 32.3vw;top:39.0vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+		.button-type-31 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 41.3vw;top:39.0vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+	
+		.button-type-32
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 59.3vw;top:39.0vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+	
+	
+		.button-type-33 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 23.23vw;top:46.46vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+	
+		.button-type-34 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 41.23vw;top:46.46vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+	
+		.button-type-35 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 23.23vw;top:53.86vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		.button-type-36 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 41.23vw;top:53.86vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+	
+	
+       .button-type-37 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 59.3vw;top:53.86vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+       .button-type-38 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 23.23vw;top:61.32vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+		
+		.button-type-39 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 59.3vw;top:61.32vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+		.button-type-40 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 23.23vw;top:69.2vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+		.button-type-41 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 41.23vw;top:69.05vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		.button-type-42 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 23.23vw;top:76.34vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+		
+		.button-type-43 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 59.3vw;top:76.34vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+		
+		.button-type-44 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 59.3vw;top:31.41vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+		
+		.button-type-45 
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 59.3vw;top:46.46vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+		
+		.button-type-46 
+        /* atc1 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 65.2vw;top:78.16vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+	
+		.button-type-47 
+        /* atc2 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 65.2vw;top:78.16vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+		.button-type-48 
+        /* symbolik */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 72.65vw;top:84.15vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+		.button-type-49 
+        /* details1 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 85.4vw;top:27.5vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+	
+		.button-type-50 
+        /* details2 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 85.4vw;top:31.5vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+	
+		.button-type-51 
+        /* details3 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 85.4vw;top:35.5vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+	
+		.button-type-52
+        /* details4 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 85.4vw;top:39.5vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+	
+		.button-type-53 
+        /* details5 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 85.4vw;top:43.5vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+	
+		.button-type-54
+        /* details6 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 85.4vw;top:47.5vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+	
+		.button-type-55 
+        /* details7 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 85.4vw;top:51.5vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+	
+		.button-type-56
+        /* details8 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 85.4vw;top:55.5vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+	
+		.button-type-57 
+        /* details9 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 85.4vw;top:60.5vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+	
+		.button-type-58 
+        /* details10 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 85.4vw;top:64.5vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+	
+		.button-type-59 
+        /* details11 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 85.4vw;top:68.5vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+	
+		.button-type-60 
+        /* details11 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 85.4vw;top:72.5vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+		.button-type-61
+        /* details12 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 85.4vw;top:76.5vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		.button-type-62 
+        /* details13 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 85.4vw;top:80.5vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		.button-type-63 
+        /* details13 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 73.05vw;top:75.5vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+		
+		.button-type-64 
+        /* details13 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left:5vw;top:83.75vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+		
+		.button-type-65 
+        /* details13 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 13.85vw;top:83.75vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+		
+		.button-type-66 
+        /* details13 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 22.85vw;top:83.75vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+		
+		
+		
+		
+			
+		.button-type-67
+        /* details13 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 31.85vw;top:83.75vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+		
+		
+		
+		
+			
+		.button-type-68
+        /* details13 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 40.88vw;top:83.75vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+		
+		
+		
+			
+		.button-type-69
+        /* details13 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 49.9vw;top:83.75vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+		
+		
+		
+			
+		.button-type-70 
+        /* details13 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 58.9vw;top:83.75vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+				
+		.button-type-71 
+        /* details13 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: \s*\d+vw;top:83.75vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+		
+		
+		.button-type-72 
+        /* details13 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 77.05vw;top:83.75vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+		
+		
+		
+		.button-type-73 
+        /* details13 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 85.905vw;top:83.75vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+		
+		.button-type-74 
+        /*  */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 90.495vw;top:83.75vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+		
+		
+		
+		
+		
+			.button-type-75
+        /* schnittstelle */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 86.2vw;top:0.7vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+		
+		
+		
+				.button-type-76
+        /* jog */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 90.63vw;top:0.68vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+		
+		
+		
+				.button-type-77
+        /* undo */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 86.1vw;top:7.4vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+		
+			
+				.button-type-78
+        /* screenShot */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 90.63vw;top:7.49vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+		
+		
+		
+				
+				.button-type-79
+        /* details13 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 86.08vw;top:18.2vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+		
+		
+					
+				.button-type-80
+        /* details13 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 86.15vw;top:28.65vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+		
+		
+		
+		
+		
+						
+				.button-type-81
+        /* details13 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 86.15vw;top:39.3vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+		
+		
+		
+		
+							
+				.button-type-82
+        /* details13 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 86.15vw;top:49.75vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+		
+							
+				.button-type-83
+        /* details13 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 86.15vw;top:60.5vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+							
+				.button-type-84
+        /* details13 */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 86.15vw;top:71.05vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+								
+				.button-type-85
+        /* info */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 80.2vw;top:0.7vh; 
+		background-position: center;background-repeat: no-repeat;background-size: contain;}
+		
+		
+		
+		
+		
+		
+	.button-type-86
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 88.4vw;top:92.42vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+
+/*neben an*/
+
+
+	
+	.button-type-87
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 86.15vw;top:29vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+
+
+
+
+
+	.button-type-88
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 86.15vw;top:36.6vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+
+
+
+
+
+
+	.button-type-89
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 86.15vw;top:44.1vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+
+
+
+.button-type-90
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 86.15vw;top:51.515vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+
+
+
+
+
+.button-type-91
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 86.15vw;top:59vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+
+
+.button-type-92
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 86.15vw;top:66.38vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+
+
+
+
+
+.button-type-93
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 86.15vw;top:73.93vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+
+
+.button-type-94
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 86.15vw;top:81.42vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+
+
+
+.button-type-95
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 86.14vw;top:92.42vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+
+
+		
+
+.button-type-96
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 90.5vw;top:92.42vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+
+.button-type-97
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 86.14vw;top:18.20vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+
+
+	.button-type-98
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 86.15vw;top:28.733vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+
+.button-type-99
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 86.15vw;top:39.266vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+
+
+
+
+.button-type-100
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 86.15vw;top:49.799vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+
+
+.button-type-101
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 86.15vw;top:60.332vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+
+
+
+.button-type-102
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 86.15vw;top:70.865vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+
+
+
+
+.button-type-103
+        /* Spezifische Stile hier */
+		{line-height: 0; vertical-align: middle; display: block;  margin: 0;border: none; padding: 0; position: absolute;left: 86.15vw;top:81.398vh; 
+    background-position: center;background-repeat: no-repeat;background-size: contain;}
+
+
+
+
+
+
+		
+	}
+	
+
+
+
+
